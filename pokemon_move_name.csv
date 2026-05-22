@@ -1,0 +1,845 @@
+api_name_move,技名,技タイプ,技威力,攻撃分類,技効果
+pound,はたく,ノーマル,40,物理(physical),Inflicts regular damage with no additional effect.
+karate-chop,からてチョップ,かくとう,50,物理(physical),Has an increased chance for a critical hit.
+double-slap,おうふくビンタ,ノーマル,15,物理(physical),Hits 2-5 times in one turn.
+comet-punch,れんぞくパンチ,ノーマル,18,物理(physical),Hits 2-5 times in one turn.
+mega-punch,メガトンパンチ,ノーマル,80,物理(physical),Inflicts regular damage with no additional effect.
+pay-day,ネコにこばん,ノーマル,40,物理(physical),Scatters money on the ground worth five times the user's level.
+fire-punch,ほのおのパンチ,ほのお,75,物理(physical),Has a $effect_chance% chance to [burn]{mechanic:burn} the target.
+ice-punch,れいとうパンチ,こおり,75,物理(physical),Has a $effect_chance% chance to [freeze]{mechanic:freeze} the target.
+thunder-punch,かみなりパンチ,でんき,75,物理(physical),Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.
+scratch,ひっかく,ノーマル,40,物理(physical),Inflicts regular damage with no additional effect.
+vice-grip,はさむ,ノーマル,55,物理(physical),Inflicts regular damage with no additional effect.
+guillotine,ハサミギロチン,ノーマル,0,物理(physical),Causes a one-hit KO.
+razor-wind,かまいたち,ノーマル,80,特殊(special),Requires a turn to charge before attacking.
+swords-dance,つるぎのまい,ノーマル,0,変化(status),Raises the user's Attack by two stages.
+cut,いあいぎり,ノーマル,50,物理(physical),Inflicts regular damage with no additional effect.
+gust,かぜおこし,ひこう,40,特殊(special),Inflicts regular damage and can hit Pokemon in the air.
+wing-attack,つばさでうつ,ひこう,60,物理(physical),Inflicts regular damage with no additional effect.
+whirlwind,ふきとばし,ノーマル,0,変化(status),Immediately ends wild battles.  Forces trainers to switch Pokemon.
+fly,そらをとぶ,ひこう,90,物理(physical),"User flies high into the air, dodging all attacks, and hits next turn."
+bind,しめつける,ノーマル,15,物理(physical),Prevents the target from fleeing and inflicts damage for 2-5 turns.
+slam,たたきつける,ノーマル,80,物理(physical),Inflicts regular damage with no additional effect.
+vine-whip,つるのムチ,くさ,45,物理(physical),Inflicts regular damage with no additional effect.
+stomp,ふみつけ,ノーマル,65,物理(physical),Has a $effect_chance% chance to make the target flinch.
+double-kick,にどげり,かくとう,30,物理(physical),Hits twice in one turn.
+mega-kick,メガトンキック,ノーマル,120,物理(physical),Inflicts regular damage with no additional effect.
+jump-kick,とびげり,かくとう,100,物理(physical),"If the user misses, it takes half the damage it would have inflicted in recoil."
+rolling-kick,まわしげり,かくとう,60,物理(physical),Has a $effect_chance% chance to make the target flinch.
+sand-attack,すなかけ,じめん,0,変化(status),Lowers the target's accuracy by one stage.
+headbutt,ずつき,ノーマル,70,物理(physical),Has a $effect_chance% chance to make the target flinch.
+horn-attack,つのでつく,ノーマル,65,物理(physical),Inflicts regular damage with no additional effect.
+fury-attack,みだれづき,ノーマル,15,物理(physical),Hits 2-5 times in one turn.
+horn-drill,つのドリル,ノーマル,0,物理(physical),Causes a one-hit KO.
+tackle,たいあたり,ノーマル,40,物理(physical),Inflicts regular damage with no additional effect.
+body-slam,のしかかり,ノーマル,85,物理(physical),Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.
+wrap,まきつく,ノーマル,15,物理(physical),Prevents the target from fleeing and inflicts damage for 2-5 turns.
+take-down,とっしん,ノーマル,90,物理(physical),User receives 1/4 the damage it inflicts in recoil.
+thrash,あばれる,ノーマル,120,物理(physical),"Hits every turn for 2-3 turns, then confuses the user."
+double-edge,すてみタックル,ノーマル,120,物理(physical),User receives 1/3 the damage inflicted in recoil.
+tail-whip,しっぽをふる,ノーマル,0,変化(status),Lowers the target's Defense by one stage.
+poison-sting,どくばり,どく,15,物理(physical),Has a $effect_chance% chance to [poison]{mechanic:poison} the target.
+twineedle,ダブルニードル,むし,25,物理(physical),Hits twice in the same turn.  Has a $effect_chance% chance to poison the target.
+pin-missile,ミサイルばり,むし,25,物理(physical),Hits 2-5 times in one turn.
+leer,にらみつける,ノーマル,0,変化(status),Lowers the target's Defense by one stage.
+bite,かみつく,あく,60,物理(physical),Has a $effect_chance% chance to make the target flinch.
+growl,なきごえ,ノーマル,0,変化(status),Lowers the target's Attack by one stage.
+roar,ほえる,ノーマル,0,変化(status),Immediately ends wild battles.  Forces trainers to switch Pokemon.
+sing,うたう,ノーマル,0,変化(status),Puts the target to sleep.
+supersonic,ちょうおんぱ,ノーマル,0,変化(status),Confuses the target.
+sonic-boom,ソニックブーム,ノーマル,0,特殊(special),Inflicts 20 points of damage.
+disable,かなしばり,ノーマル,0,変化(status),Disables the target's last used move for 1-8 turns.
+acid,ようかいえき,どく,40,特殊(special),Has a $effect_chance% chance to lower the target's Special Defense by one stage.
+ember,ひのこ,ほのお,40,特殊(special),Has a $effect_chance% chance to [burn]{mechanic:burn} the target.
+flamethrower,かえんほうしゃ,ほのお,90,特殊(special),Has a $effect_chance% chance to [burn]{mechanic:burn} the target.
+mist,しろいきり,こおり,0,変化(status),Protects the user's stats from being changed by enemy moves.
+water-gun,みずでっぽう,みず,40,特殊(special),Inflicts regular damage with no additional effect.
+hydro-pump,ハイドロポンプ,みず,110,特殊(special),Inflicts regular damage with no additional effect.
+surf,なみのり,みず,90,特殊(special),Inflicts regular damage and can hit Dive users.
+ice-beam,れいとうビーム,こおり,90,特殊(special),Has a $effect_chance% chance to [freeze]{mechanic:freeze} the target.
+blizzard,ふぶき,こおり,110,特殊(special),Has a $effect_chance% chance to freeze the target.
+psybeam,サイケこうせん,エスパー,65,特殊(special),Has a $effect_chance% chance to confuse the target.
+bubble-beam,バブルこうせん,みず,65,特殊(special),Has a $effect_chance% chance to lower the target's Speed by one stage.
+aurora-beam,オーロラビーム,こおり,65,特殊(special),Has a $effect_chance% chance to lower the target's Attack by one stage.
+hyper-beam,はかいこうせん,ノーマル,150,特殊(special),User foregoes its next turn to recharge.
+peck,つつく,ひこう,35,物理(physical),Inflicts regular damage with no additional effect.
+drill-peck,ドリルくちばし,ひこう,80,物理(physical),Inflicts regular damage with no additional effect.
+submission,じごくぐるま,かくとう,80,物理(physical),User receives 1/4 the damage it inflicts in recoil.
+low-kick,けたぐり,かくとう,0,物理(physical),"Inflicts more damage to heavier targets, with a maximum of 120 power."
+counter,カウンター,かくとう,0,物理(physical),Inflicts twice the damage the user received from the last physical hit it took.
+seismic-toss,ちきゅうなげ,かくとう,0,物理(physical),Inflicts damage equal to the user's level.
+strength,かいりき,ノーマル,80,物理(physical),Inflicts regular damage with no additional effect.
+absorb,すいとる,くさ,20,特殊(special),Drains half the damage inflicted to heal the user.
+mega-drain,メガドレイン,くさ,40,特殊(special),Drains half the damage inflicted to heal the user.
+leech-seed,やどりぎのタネ,くさ,0,変化(status),"Seeds the target, stealing HP from it every turn."
+growth,せいちょう,ノーマル,0,変化(status),Raises the user's Attack and Special Attack by one stage.
+razor-leaf,はっぱカッター,くさ,55,物理(physical),Has an increased chance for a critical hit.
+solar-beam,ソーラービーム,くさ,120,特殊(special),Requires a turn to charge before attacking.
+poison-powder,どくのこな,どく,0,変化(status),Poisons the target.
+stun-spore,しびれごな,くさ,0,変化(status),Paralyzes the target.
+sleep-powder,ねむりごな,くさ,0,変化(status),Puts the target to sleep.
+petal-dance,はなびらのまい,くさ,120,特殊(special),"Hits every turn for 2-3 turns, then confuses the user."
+string-shot,いとをはく,むし,0,変化(status),Lowers the target's Speed by two stages.
+dragon-rage,りゅうのいかり,ドラゴン,0,特殊(special),Inflicts 40 points of damage.
+fire-spin,ほのおのうず,ほのお,35,特殊(special),Prevents the target from fleeing and inflicts damage for 2-5 turns.
+thunder-shock,でんきショック,でんき,40,特殊(special),Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.
+thunderbolt,１０まんボルト,でんき,90,特殊(special),Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.
+thunder-wave,でんじは,でんき,0,変化(status),Paralyzes the target.
+thunder,かみなり,でんき,110,特殊(special),Has a $effect_chance% chance to paralyze the target.
+rock-throw,いわおとし,いわ,50,物理(physical),Inflicts regular damage with no additional effect.
+earthquake,じしん,じめん,100,物理(physical),Inflicts regular damage and can hit Dig users.
+fissure,じわれ,じめん,0,物理(physical),Causes a one-hit KO.
+dig,あなをほる,じめん,80,物理(physical),"User digs underground, dodging all attacks, and hits next turn."
+toxic,どくどく,どく,0,変化(status),"Badly poisons the target, inflicting more damage every turn."
+confusion,ねんりき,エスパー,50,特殊(special),Has a $effect_chance% chance to confuse the target.
+psychic,サイコキネシス,エスパー,90,特殊(special),Has a $effect_chance% chance to lower the target's Special Defense by one stage.
+hypnosis,さいみんじゅつ,エスパー,0,変化(status),Puts the target to sleep.
+meditate,ヨガのポーズ,エスパー,0,変化(status),Raises the user's Attack by one stage.
+agility,こうそくいどう,エスパー,0,変化(status),Raises the user's Speed by two stages.
+quick-attack,でんこうせっか,ノーマル,40,物理(physical),Inflicts regular damage with no additional effect.
+rage,いかり,ノーマル,20,物理(physical),"If the user is hit after using this move, its Attack rises by one stage."
+teleport,テレポート,エスパー,0,変化(status),Immediately ends wild battles.  No effect otherwise.
+night-shade,ナイトヘッド,ゴースト,0,特殊(special),Inflicts damage equal to the user's level.
+mimic,ものまね,ノーマル,0,変化(status),Copies the target's last used move.
+screech,いやなおと,ノーマル,0,変化(status),Lowers the target's Defense by two stages.
+double-team,かげぶんしん,ノーマル,0,変化(status),Raises the user's evasion by one stage.
+recover,じこさいせい,ノーマル,0,変化(status),Heals the user by half its max HP.
+harden,かたくなる,ノーマル,0,変化(status),Raises the user's Defense by one stage.
+minimize,ちいさくなる,ノーマル,0,変化(status),Raises the user's evasion by two stages.
+smokescreen,えんまく,ノーマル,0,変化(status),Lowers the target's accuracy by one stage.
+confuse-ray,あやしいひかり,ゴースト,0,変化(status),Confuses the target.
+withdraw,からにこもる,みず,0,変化(status),Raises the user's Defense by one stage.
+defense-curl,まるくなる,ノーマル,0,変化(status),Raises user's Defense by one stage.
+barrier,バリアー,エスパー,0,変化(status),Raises the user's Defense by two stages.
+light-screen,ひかりのかべ,エスパー,0,変化(status),Reduces damage from special attacks by 50% for five turns.
+haze,くろいきり,こおり,0,変化(status),"Resets all Pokemon's stats, accuracy, and evasion."
+reflect,リフレクター,エスパー,0,変化(status),Reduces damage from physical attacks by half.
+focus-energy,きあいだめ,ノーマル,0,変化(status),Increases the user's chance to score a critical hit.
+bide,がまん,ノーマル,0,物理(physical),"User waits for two turns, then hits back for twice the damage it took."
+metronome,ゆびをふる,ノーマル,0,変化(status),Randomly selects and uses any move in the game.
+mirror-move,オウムがえし,ひこう,0,変化(status),Uses the target's last used move.
+self-destruct,じばく,ノーマル,200,物理(physical),User faints.
+egg-bomb,タマゴばくだん,ノーマル,100,物理(physical),Inflicts regular damage with no additional effect.
+lick,したでなめる,ゴースト,30,物理(physical),Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.
+smog,スモッグ,どく,30,特殊(special),Has a $effect_chance% chance to [poison]{mechanic:poison} the target.
+sludge,ヘドロこうげき,どく,65,特殊(special),Has a $effect_chance% chance to [poison]{mechanic:poison} the target.
+bone-club,ホネこんぼう,じめん,65,物理(physical),Has a $effect_chance% chance to make the target flinch.
+fire-blast,だいもんじ,ほのお,110,特殊(special),Has a $effect_chance% chance to [burn]{mechanic:burn} the target.
+waterfall,たきのぼり,みず,80,物理(physical),Has a $effect_chance% chance to make the target flinch.
+clamp,からではさむ,みず,35,物理(physical),Prevents the target from fleeing and inflicts damage for 2-5 turns.
+swift,スピードスター,ノーマル,60,特殊(special),Never misses.
+skull-bash,ロケットずつき,ノーマル,130,物理(physical),Raises the user's Defense by one stage.  User charges for one turn before attacking.
+spike-cannon,とげキャノン,ノーマル,20,物理(physical),Hits 2-5 times in one turn.
+constrict,からみつく,ノーマル,10,物理(physical),Has a $effect_chance% chance to lower the target's Speed by one stage.
+amnesia,ドわすれ,エスパー,0,変化(status),Raises the user's Special Defense by two stages.
+kinesis,スプーンまげ,エスパー,0,変化(status),Lowers the target's accuracy by one stage.
+soft-boiled,タマゴうみ,ノーマル,0,変化(status),Heals the user by half its max HP.
+high-jump-kick,とびひざげり,かくとう,130,物理(physical),"If the user misses, it takes half the damage it would have inflicted in recoil."
+glare,へびにらみ,ノーマル,0,変化(status),Paralyzes the target.
+dream-eater,ゆめくい,エスパー,100,特殊(special),Only works on sleeping Pokemon.  Drains half the damage inflicted to heal the user.
+poison-gas,どくガス,どく,0,変化(status),Poisons the target.
+barrage,たまなげ,ノーマル,15,物理(physical),Hits 2-5 times in one turn.
+leech-life,きゅうけつ,むし,80,物理(physical),Drains half the damage inflicted to heal the user.
+lovely-kiss,あくまのキッス,ノーマル,0,変化(status),Puts the target to sleep.
+sky-attack,ゴッドバード,ひこう,140,物理(physical),User charges for one turn before attacking.  Has a $effect_chance% chance to make the target flinch.
+transform,へんしん,ノーマル,0,変化(status),User becomes a copy of the target until it leaves battle.
+bubble,あわ,みず,40,特殊(special),Has a $effect_chance% chance to lower the target's Speed by one stage.
+dizzy-punch,ピヨピヨパンチ,ノーマル,70,物理(physical),Has a $effect_chance% chance to confuse the target.
+spore,キノコのほうし,くさ,0,変化(status),Puts the target to sleep.
+flash,フラッシュ,ノーマル,0,変化(status),Lowers the target's accuracy by one stage.
+psywave,サイコウェーブ,エスパー,0,特殊(special),Inflicts damage between 50% and 150% of the user's level.
+splash,はねる,ノーマル,0,変化(status),Does nothing.
+acid-armor,とける,どく,0,変化(status),Raises the user's Defense by two stages.
+crabhammer,クラブハンマー,みず,100,物理(physical),Has an increased chance for a critical hit.
+explosion,だいばくはつ,ノーマル,250,物理(physical),User faints.
+fury-swipes,みだれひっかき,ノーマル,18,物理(physical),Hits 2-5 times in one turn.
+bonemerang,ホネブーメラン,じめん,50,物理(physical),Hits twice in one turn.
+rest,ねむる,エスパー,0,変化(status),"User sleeps for two turns, completely healing itself."
+rock-slide,いわなだれ,いわ,75,物理(physical),Has a $effect_chance% chance to make the target flinch.
+hyper-fang,ひっさつまえば,ノーマル,80,物理(physical),Has a $effect_chance% chance to make the target flinch.
+sharpen,かくばる,ノーマル,0,変化(status),Raises the user's Attack by one stage.
+conversion,テクスチャー,ノーマル,0,変化(status),User's type changes to the type of one of its moves at random.
+tri-attack,トライアタック,ノーマル,80,特殊(special),"Has a $effect_chance% chance to [burn]{mechanic:burn}, [freeze]{mechanic:freeze}, or [paralyze]{mechanic:paralysis} the target."
+super-fang,いかりのまえば,ノーマル,0,物理(physical),Inflicts damage equal to half the target's HP.
+slash,きりさく,ノーマル,70,物理(physical),Has an increased chance for a critical hit.
+substitute,みがわり,ノーマル,0,変化(status),"Transfers 1/4 of the user's max HP into a doll, protecting the user from further damage or status changes until it breaks."
+struggle,わるあがき,ノーマル,50,物理(physical),User takes 1/4 its max HP in recoil.
+sketch,スケッチ,ノーマル,0,変化(status),Permanently becomes the target's last used move.
+triple-kick,トリプルキック,かくとう,10,物理(physical),"Hits three times, increasing power by 100% with each successful hit."
+thief,どろぼう,あく,60,物理(physical),Takes the target's item.
+spider-web,クモのす,むし,0,変化(status),Prevents the target from leaving battle.
+mind-reader,こころのめ,ノーマル,0,変化(status),Ensures that the user's next move will hit the target.
+nightmare,あくむ,ゴースト,0,変化(status),Target loses 1/4 its max HP every turn as long as it's asleep.
+flame-wheel,かえんぐるま,ほのお,60,物理(physical),Has a $effect_chance% chance to [burn]{mechanic:burn} the target.  Lets frozen Pokemon thaw themselves.
+snore,いびき,ノーマル,50,特殊(special),Has a $effect_chance% chance to make the target flinch.  Only works if the user is sleeping.
+curse,のろい,ゴースト,0,変化(status),Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense.
+flail,じたばた,ノーマル,0,物理(physical),"Inflicts more damage when the user has less HP remaining, with a maximum of 200 power."
+conversion-2,テクスチャー２,ノーマル,0,変化(status),Changes the user's type to a random type either resistant or immune to the last move used against it.
+aeroblast,エアロブラスト,ひこう,100,特殊(special),Has an increased chance for a critical hit.
+cotton-spore,わたほうし,くさ,0,変化(status),Lowers the target's Speed by two stages.
+reversal,きしかいせい,かくとう,0,物理(physical),"Inflicts more damage when the user has less HP remaining, with a maximum of 200 power."
+spite,うらみ,ゴースト,0,変化(status),Lowers the PP of the target's last used move by 4.
+powder-snow,こなゆき,こおり,40,特殊(special),Has a $effect_chance% chance to [freeze]{mechanic:freeze} the target.
+protect,まもる,ノーマル,0,変化(status),Prevents any moves from hitting the user this turn.
+mach-punch,マッハパンチ,かくとう,40,物理(physical),Inflicts regular damage with no additional effect.
+scary-face,こわいかお,ノーマル,0,変化(status),Lowers the target's Speed by two stages.
+feint-attack,だましうち,あく,60,物理(physical),Never misses.
+sweet-kiss,てんしのキッス,フェアリー,0,変化(status),Confuses the target.
+belly-drum,はらだいこ,ノーマル,0,変化(status),User pays half its max HP to max out its Attack.
+sludge-bomb,ヘドロばくだん,どく,90,特殊(special),Has a $effect_chance% chance to [poison]{mechanic:poison} the target.
+mud-slap,どろかけ,じめん,20,特殊(special),Has a $effect_chance% chance to lower the target's accuracy by one stage.
+octazooka,オクタンほう,みず,65,特殊(special),Has a $effect_chance% chance to lower the target's accuracy by one stage.
+spikes,まきびし,じめん,0,変化(status),"Scatters Spikes, hurting opposing Pokemon that switch in."
+zap-cannon,でんじほう,でんき,120,特殊(special),Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.
+foresight,みやぶる,ノーマル,0,変化(status),"Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it's a Ghost."
+destiny-bond,みちづれ,ゴースト,0,変化(status),"If the user faints this turn, the target automatically will, too."
+perish-song,ほろびのうた,ノーマル,0,変化(status),User and target both faint after three turns.
+icy-wind,こごえるかぜ,こおり,55,特殊(special),Has a $effect_chance% chance to lower the target's Speed by one stage.
+detect,みきり,かくとう,0,変化(status),Prevents any moves from hitting the user this turn.
+bone-rush,ボーンラッシュ,じめん,25,物理(physical),Hits 2-5 times in one turn.
+lock-on,ロックオン,ノーマル,0,変化(status),Ensures that the user's next move will hit the target.
+outrage,げきりん,ドラゴン,120,物理(physical),"Hits every turn for 2-3 turns, then confuses the user."
+sandstorm,すなあらし,いわ,0,変化(status),Changes the weather to a sandstorm for five turns.
+giga-drain,ギガドレイン,くさ,75,特殊(special),Drains half the damage inflicted to heal the user.
+endure,こらえる,ノーマル,0,変化(status),Prevents the user's HP from lowering below 1 this turn.
+charm,あまえる,フェアリー,0,変化(status),Lowers the target's Attack by two stages.
+rollout,ころがる,いわ,30,物理(physical),"Power doubles every turn this move is used in succession after the first, resetting after five turns."
+false-swipe,みねうち,ノーマル,40,物理(physical),Cannot lower the target's HP below 1.
+swagger,いばる,ノーマル,0,変化(status),Raises the target's Attack by two stages and confuses the target.
+milk-drink,ミルクのみ,ノーマル,0,変化(status),Heals the user by half its max HP.
+spark,スパーク,でんき,65,物理(physical),Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.
+fury-cutter,れんぞくぎり,むし,40,物理(physical),"Power doubles every turn this move is used in succession after the first, maxing out after five turns."
+steel-wing,はがねのつばさ,はがね,70,物理(physical),Has a $effect_chance% chance to raise the user's Defense by one stage.
+mean-look,くろいまなざし,ノーマル,0,変化(status),Prevents the target from leaving battle.
+attract,メロメロ,ノーマル,0,変化(status),"Target falls in love if it has the opposite gender, and has a 50% chance to refuse attacking the user."
+sleep-talk,ねごと,ノーマル,0,変化(status),Randomly uses one of the user's other three moves.  Only works if the user is sleeping.
+heal-bell,いやしのすず,ノーマル,0,変化(status),Cures the entire party of major status effects.
+return,おんがえし,ノーマル,0,物理(physical),"Power increases with happiness, up to a maximum of 102."
+present,プレゼント,ノーマル,0,物理(physical),Randomly inflicts damage with power from 40 to 120 or heals the target for 1/4 its max HP.
+frustration,やつあたり,ノーマル,0,物理(physical),"Power increases as happiness decreases, up to a maximum of 102."
+safeguard,しんぴのまもり,ノーマル,0,変化(status),Protects the user's field from major status ailments and confusion for five turns.
+pain-split,いたみわけ,ノーマル,0,変化(status),Sets the user's and targets's HP to the average of their current HP.
+sacred-fire,せいなるほのお,ほのお,100,物理(physical),Has a $effect_chance% chance to [burn]{mechanic:burn} the target.  Lets frozen Pokemon thaw themselves.
+magnitude,マグニチュード,じめん,0,物理(physical),Power varies randomly from 10 to 150.
+dynamic-punch,ばくれつパンチ,かくとう,100,物理(physical),Has a $effect_chance% chance to confuse the target.
+megahorn,メガホーン,むし,120,物理(physical),Inflicts regular damage with no additional effect.
+dragon-breath,りゅうのいぶき,ドラゴン,60,特殊(special),Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.
+baton-pass,バトンタッチ,ノーマル,0,変化(status),Allows the trainer to switch out the user and pass effects along to its replacement.
+encore,アンコール,ノーマル,0,変化(status),Forces the target to repeat its last used move every turn for 2 to 6 turns.
+pursuit,おいうち,あく,40,物理(physical),"Has double power against, and can hit, Pokemon attempting to switch out."
+rapid-spin,こうそくスピン,ノーマル,50,物理(physical),"Frees the user from binding moves, removes Leech Seed, and blows away Spikes."
+sweet-scent,あまいかおり,ノーマル,0,変化(status),Lowers the target's evasion by one stage.
+iron-tail,アイアンテール,はがね,100,物理(physical),Has a $effect_chance% chance to lower the target's Defense by one stage.
+metal-claw,メタルクロー,はがね,50,物理(physical),Has a $effect_chance% chance to raise the user's Attack by one stage.
+vital-throw,あてみなげ,かくとう,70,物理(physical),Never misses.
+morning-sun,あさのひざし,ノーマル,0,変化(status),Heals the user by half its max HP.  Affected by weather.
+synthesis,こうごうせい,くさ,0,変化(status),Heals the user by half its max HP.  Affected by weather.
+moonlight,つきのひかり,フェアリー,0,変化(status),Heals the user by half its max HP.  Affected by weather.
+hidden-power,めざめるパワー,ノーマル,60,特殊(special),Power and type depend upon user's IVs.  Power can range from 30 to 70.
+cross-chop,クロスチョップ,かくとう,100,物理(physical),Has an increased chance for a critical hit.
+twister,たつまき,ドラゴン,40,特殊(special),Has a $effect_chance% chance to make the target flinch.
+rain-dance,あまごい,みず,0,変化(status),Changes the weather to rain for five turns.
+sunny-day,にほんばれ,ほのお,0,変化(status),Changes the weather to sunny for five turns.
+crunch,かみくだく,あく,80,物理(physical),Has a $effect_chance% chance to lower the target's Defense by one stage.
+mirror-coat,ミラーコート,エスパー,0,特殊(special),Inflicts twice the damage the user received from the last special hit it took.
+psych-up,じこあんじ,ノーマル,0,変化(status),Discards the user's stat changes and copies the target's.
+extreme-speed,しんそく,ノーマル,80,物理(physical),Inflicts regular damage with no additional effect.
+ancient-power,げんしのちから,いわ,60,特殊(special),Has a $effect_chance% chance to raise all of the user's stats by one stage.
+shadow-ball,シャドーボール,ゴースト,80,特殊(special),Has a $effect_chance% chance to lower the target's Special Defense by one stage.
+future-sight,みらいよち,エスパー,120,特殊(special),Hits the target two turns later.
+rock-smash,いわくだき,かくとう,40,物理(physical),Has a $effect_chance% chance to lower the target's Defense by one stage.
+whirlpool,うずしお,みず,35,特殊(special),Prevents the target from leaving battle and inflicts 1/16 its max HP in damage for 2-5 turns.
+beat-up,ふくろだたき,あく,0,物理(physical),Hits once for every conscious Pokemon the trainer has.
+fake-out,ねこだまし,ノーマル,40,物理(physical),Can only be used as the first move after the user enters battle.  Causes the target to flinch.
+uproar,さわぐ,ノーマル,90,特殊(special),Forced to use this move for several turns.  Pokemon cannot fall asleep in that time.
+stockpile,たくわえる,ノーマル,0,変化(status),Stores energy up to three times for use with Spit Up and Swallow.
+spit-up,はきだす,ノーマル,0,特殊(special),Power is 100 times the amount of energy Stockpiled.
+swallow,のみこむ,ノーマル,0,変化(status),"Recovers 1/4 HP after one Stockpile, 1/2 HP after two Stockpiles, or full HP after three Stockpiles."
+heat-wave,ねっぷう,ほのお,95,特殊(special),Has a $effect_chance% chance to [burn]{mechanic:burn} the target.
+hail,あられ,こおり,0,変化(status),Changes the weather to a hailstorm for five turns.
+torment,いちゃもん,あく,0,変化(status),Prevents the target from using the same move twice in a row.
+flatter,おだてる,あく,0,変化(status),Raises the target's Special Attack by one stage and confuses the target.
+will-o-wisp,おにび,ほのお,0,変化(status),Burns the target.
+memento,おきみやげ,あく,0,変化(status),Lowers the target's Attack and Special Attack by two stages.  User faints.
+facade,からげんき,ノーマル,70,物理(physical),"Power doubles if user is burned, paralyzed, or poisoned."
+focus-punch,きあいパンチ,かくとう,150,物理(physical),"If the user takes damage before attacking, the attack is canceled."
+smelling-salts,きつけ,ノーマル,70,物理(physical),"If the target is paralyzed, inflicts double damage and cures the paralysis."
+follow-me,このゆびとまれ,ノーマル,0,変化(status),Redirects the target's single-target effects to the user for this turn.
+nature-power,しぜんのちから,ノーマル,0,変化(status),Uses a move which depends upon the terrain.
+charge,じゅうでん,でんき,0,変化(status),Raises the user's Special Defense by one stage.  User's Electric moves have doubled power next turn.
+taunt,ちょうはつ,あく,0,変化(status),"For the next few turns, the target can only use damaging moves."
+helping-hand,てだすけ,ノーマル,0,変化(status),Ally's next move inflicts half more damage.
+trick,トリック,エスパー,0,変化(status),User and target swap items.
+role-play,なりきり,エスパー,0,変化(status),Copies the target's ability.
+wish,ねがいごと,ノーマル,0,変化(status),User will recover half its max HP at the end of the next turn.
+assist,ねこのて,ノーマル,0,変化(status),Randomly selects and uses one of the trainer's other Pokemon's moves.
+ingrain,ねをはる,くさ,0,変化(status),Prevents the user from leaving battle.  User regains 1/16 of its max HP every turn.
+superpower,ばかぢから,かくとう,120,物理(physical),Lowers the user's Attack and Defense by one stage after inflicting damage.
+magic-coat,マジックコート,エスパー,0,変化(status),Reflects back the first effect move used on the user this turn.
+recycle,リサイクル,ノーマル,0,変化(status),User recovers the item it last used up.
+revenge,リベンジ,かくとう,60,物理(physical),Inflicts double damage if the user takes damage before attacking this turn.
+brick-break,かわらわり,かくとう,75,物理(physical),Destroys Reflect and Light Screen.
+yawn,あくび,ノーマル,0,変化(status),Target sleeps at the end of the next turn.
+knock-off,はたきおとす,あく,65,物理(physical),Target drops its held item.
+endeavor,がむしゃら,ノーマル,0,物理(physical),Lowers the target's HP to equal the user's.
+eruption,ふんか,ほのお,150,特殊(special),"Inflicts more damage when the user has more HP remaining, with a maximum of 150 power."
+skill-swap,スキルスワップ,エスパー,0,変化(status),User and target swap abilities.
+imprison,ふういん,エスパー,0,変化(status),Prevents the target from using any moves that the user also knows.
+refresh,リフレッシュ,ノーマル,0,変化(status),"Cleanses the user of a burn, paralysis, or poison."
+grudge,おんねん,ゴースト,0,変化(status),"If the user faints this turn, the PP of the move that fainted it drops to 0."
+snatch,よこどり,あく,0,変化(status),"Steals the target's move, if it's self-targeted."
+secret-power,ひみつのちから,ノーマル,70,物理(physical),Has a $effect_chance% chance to inflict a status effect which depends upon the terrain.
+dive,ダイビング,みず,80,物理(physical),"User dives underwater, dodging all attacks, and hits next turn."
+arm-thrust,つっぱり,かくとう,15,物理(physical),Hits 2-5 times in one turn.
+camouflage,ほごしょく,ノーマル,0,変化(status),User's type changes to match the terrain.
+tail-glow,ほたるび,むし,0,変化(status),Raises the user's Special Attack by three stages.
+luster-purge,ラスターパージ,エスパー,70,特殊(special),Has a $effect_chance% chance to lower the target's Special Defense by one stage.
+mist-ball,ミストボール,エスパー,70,特殊(special),Has a $effect_chance% chance to lower the target's Special Attack by one stage.
+feather-dance,フェザーダンス,ひこう,0,変化(status),Lowers the target's Attack by two stages.
+teeter-dance,フラフラダンス,ノーマル,0,変化(status),Confuses the target.
+blaze-kick,ブレイズキック,ほのお,85,物理(physical),Has an increased chance for a critical hit and a $effect_chance% chance to [burn]{mechanic:burn} the target.
+mud-sport,どろあそび,じめん,0,変化(status),Halves all Electric-type damage.
+ice-ball,アイスボール,こおり,30,物理(physical),"Power doubles every turn this move is used in succession after the first, resetting after five turns."
+needle-arm,ニードルアーム,くさ,60,物理(physical),Has a $effect_chance% chance to make the target flinch.
+slack-off,なまける,ノーマル,0,変化(status),Heals the user by half its max HP.
+hyper-voice,ハイパーボイス,ノーマル,90,特殊(special),Inflicts regular damage with no additional effect.
+poison-fang,どくどくのキバ,どく,50,物理(physical),Has a $effect_chance% chance to badly poison the target.
+crush-claw,ブレイククロー,ノーマル,75,物理(physical),Has a $effect_chance% chance to lower the target's Defense by one stage.
+blast-burn,ブラストバーン,ほのお,150,特殊(special),User foregoes its next turn to recharge.
+hydro-cannon,ハイドロカノン,みず,150,特殊(special),User foregoes its next turn to recharge.
+meteor-mash,コメットパンチ,はがね,90,物理(physical),Has a $effect_chance% chance to raise the user's Attack by one stage.
+astonish,おどろかす,ゴースト,30,物理(physical),Has a $effect_chance% chance to make the target flinch.
+weather-ball,ウェザーボール,ノーマル,50,特殊(special),"If there be weather, this move has doubled power and the weather's type."
+aromatherapy,アロマセラピー,くさ,0,変化(status),Cures the entire party of major status effects.
+fake-tears,うそなき,あく,0,変化(status),Lowers the target's Special Defense by two stages.
+air-cutter,エアカッター,ひこう,60,特殊(special),Has an increased chance for a critical hit.
+overheat,オーバーヒート,ほのお,130,特殊(special),Lowers the user's Special Attack by two stages after inflicting damage.
+odor-sleuth,かぎわける,ノーマル,0,変化(status),"Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it's a Ghost."
+rock-tomb,がんせきふうじ,いわ,60,物理(physical),Has a $effect_chance% chance to lower the target's Speed by one stage.
+silver-wind,ぎんいろのかぜ,むし,60,特殊(special),Has a $effect_chance% chance to raise all of the user's stats by one stage.
+metal-sound,きんぞくおん,はがね,0,変化(status),Lowers the target's Special Defense by two stages.
+grass-whistle,くさぶえ,くさ,0,変化(status),Puts the target to sleep.
+tickle,くすぐる,ノーマル,0,変化(status),Lowers the target's Attack and Defense by one stage.
+cosmic-power,コスモパワー,エスパー,0,変化(status),Raises the user's Defense and Special Defense by one stage.
+water-spout,しおふき,みず,150,特殊(special),"Inflicts more damage when the user has more HP remaining, with a maximum of 150 power."
+signal-beam,シグナルビーム,むし,75,特殊(special),Has a $effect_chance% chance to confuse the target.
+shadow-punch,シャドーパンチ,ゴースト,60,物理(physical),Never misses.
+extrasensory,じんつうりき,エスパー,80,特殊(special),Has a $effect_chance% chance to make the target flinch.
+sky-uppercut,スカイアッパー,かくとう,85,物理(physical),Inflicts regular damage and can hit Bounce and Fly users.
+sand-tomb,すなじごく,じめん,35,物理(physical),Prevents the target from fleeing and inflicts damage for 2-5 turns.
+sheer-cold,ぜったいれいど,こおり,0,特殊(special),Causes a one-hit KO.
+muddy-water,だくりゅう,みず,90,特殊(special),Has a $effect_chance% chance to lower the target's accuracy by one stage.
+bullet-seed,タネマシンガン,くさ,25,物理(physical),Hits 2-5 times in one turn.
+aerial-ace,つばめがえし,ひこう,60,物理(physical),Never misses.
+icicle-spear,つららばり,こおり,25,物理(physical),Hits 2-5 times in one turn.
+iron-defense,てっぺき,はがね,0,変化(status),Raises the user's Defense by two stages.
+block,とおせんぼう,ノーマル,0,変化(status),Prevents the target from leaving battle.
+howl,とおぼえ,ノーマル,0,変化(status),Raises the user's Attack by one stage.
+dragon-claw,ドラゴンクロー,ドラゴン,80,物理(physical),Inflicts regular damage with no additional effect.
+frenzy-plant,ハードプラント,くさ,150,特殊(special),User foregoes its next turn to recharge.
+bulk-up,ビルドアップ,かくとう,0,変化(status),Raises the user's Attack and Defense by one stage.
+bounce,とびはねる,ひこう,85,物理(physical),"User bounces high into the air, dodging all attacks, and hits next turn."
+mud-shot,マッドショット,じめん,55,特殊(special),Has a $effect_chance% chance to lower the target's Speed by one stage.
+poison-tail,ポイズンテール,どく,50,物理(physical),Has an increased chance for a critical hit and a $effect_chance% chance to poison the target.
+covet,ほしがる,ノーマル,60,物理(physical),Takes the target's item.
+volt-tackle,ボルテッカー,でんき,120,物理(physical),User takes 1/3 the damage inflicted in recoil.  Has a $effect_chance% chance to paralyze the target.
+magical-leaf,マジカルリーフ,くさ,60,特殊(special),Never misses.
+water-sport,みずあそび,みず,0,変化(status),Halves all Fire-type damage.
+calm-mind,めいそう,エスパー,0,変化(status),Raises the user's Special Attack and Special Defense by one stage.
+leaf-blade,リーフブレード,くさ,90,物理(physical),Has an increased chance for a critical hit.
+dragon-dance,りゅうのまい,ドラゴン,0,変化(status),Raises the user's Attack and Speed by one stage.
+rock-blast,ロックブラスト,いわ,25,物理(physical),Hits 2-5 times in one turn.
+shock-wave,でんげきは,でんき,60,特殊(special),Never misses.
+water-pulse,みずのはどう,みず,60,特殊(special),Has a $effect_chance% chance to confuse the target.
+doom-desire,はめつのねがい,はがね,140,特殊(special),Hits the target two turns later.
+psycho-boost,サイコブースト,エスパー,140,特殊(special),Lowers the user's Special Attack by two stages after inflicting damage.
+roost,はねやすめ,ひこう,0,変化(status),Heals the user by half its max HP.
+gravity,じゅうりょく,エスパー,0,変化(status),Disables moves and immunities that involve flying or levitating for five turns.
+miracle-eye,ミラクルアイ,エスパー,0,変化(status),"Forces the target to have no evasion, and allows it to be hit by Psychic moves even if it's Dark."
+wake-up-slap,めざましビンタ,かくとう,70,物理(physical),"If the target is asleep, has double power and wakes it up."
+hammer-arm,アームハンマー,かくとう,100,物理(physical),Lowers user's Speed by one stage.
+gyro-ball,ジャイロボール,はがね,0,物理(physical),"Power raises when the user has lower Speed, up to a maximum of 150."
+healing-wish,いやしのねがい,エスパー,0,変化(status),User faints.  Its replacement has its HP fully restored and any major status effect removed.
+brine,しおみず,みず,65,特殊(special),Has double power against Pokemon that have less than half their max HP remaining.
+natural-gift,しぜんのめぐみ,ノーマル,0,物理(physical),Power and type depend on the held berry.
+feint,フェイント,ノーマル,30,物理(physical),Hits through Protect and Detect.
+pluck,ついばむ,ひこう,60,物理(physical),"If target has a berry, inflicts double damage and uses the berry."
+tailwind,おいかぜ,ひこう,0,変化(status),"For three turns, friendly Pokemon have doubled Speed."
+acupressure,つぼをつく,ノーマル,0,変化(status),Raises one of a friendly Pokemon's stats at random by two stages.
+metal-burst,メタルバースト,はがね,0,物理(physical),Strikes back at the last Pokemon to hit the user this turn with 1.5× the damage.
+u-turn,とんぼがえり,むし,70,物理(physical),User must switch out after attacking.
+close-combat,インファイト,かくとう,120,物理(physical),Lowers the user's Defense and Special Defense by one stage after inflicting damage.
+payback,しっぺがえし,あく,50,物理(physical),Power is doubled if the target has already moved this turn.
+assurance,ダメおし,あく,60,物理(physical),Power is doubled if the target has already received damage this turn.
+embargo,さしおさえ,あく,0,変化(status),Target cannot use held items.
+fling,なげつける,あく,0,物理(physical),Throws held item at the target; power depends on the item.
+psycho-shift,サイコシフト,エスパー,0,変化(status),Transfers the user's major status effect to the target.
+trump-card,きりふだ,ノーマル,0,特殊(special),"Power increases when this move has less PP, up to a maximum of 200."
+heal-block,かいふくふうじ,エスパー,0,変化(status),Prevents target from restoring its HP for five turns.
+wring-out,しぼりとる,ノーマル,0,特殊(special),"Power increases against targets with more HP remaining, up to a maximum of 121 power."
+power-trick,パワートリック,エスパー,0,変化(status),User swaps Attack and Defense.
+gastro-acid,いえき,どく,0,変化(status),Nullifies target's ability until it leaves battle.
+lucky-chant,おまじない,ノーマル,0,変化(status),Prevents the target from scoring critical hits for five turns.
+me-first,さきどり,ノーマル,0,変化(status),"Uses the target's move against it before it attacks, with power increased by half."
+copycat,まねっこ,ノーマル,0,変化(status),Uses the target's last used move.
+power-swap,パワースワップ,エスパー,0,変化(status),User swaps Attack and Special Attack changes with the target.
+guard-swap,ガードスワップ,エスパー,0,変化(status),User swaps Defense and Special Defense changes with the target.
+punishment,おしおき,あく,0,物理(physical),"Power increases against targets with more raised stats, up to a maximum of 200."
+last-resort,とっておき,ノーマル,140,物理(physical),Can only be used after all of the user's other moves have been used.
+worry-seed,なやみのタネ,くさ,0,変化(status),Changes the target's ability to Insomnia.
+sucker-punch,ふいうち,あく,70,物理(physical),Only works if the target is about to use a damaging move.
+toxic-spikes,どくびし,どく,0,変化(status),"Scatters poisoned spikes, poisoning opposing Pokemon that switch in."
+heart-swap,ハートスワップ,エスパー,0,変化(status),User and target swap stat changes.
+aqua-ring,アクアリング,みず,0,変化(status),Restores 1/16 of the user's max HP each turn.
+magnet-rise,でんじふゆう,でんき,0,変化(status),User is immune to Ground moves and effects for five turns.
+flare-blitz,フレアドライブ,ほのお,120,物理(physical),User takes 1/3 the damage inflicted in recoil.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.
+force-palm,はっけい,かくとう,60,物理(physical),Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.
+aura-sphere,はどうだん,かくとう,80,特殊(special),Never misses.
+rock-polish,ロックカット,いわ,0,変化(status),Raises the user's Speed by two stages.
+poison-jab,どくづき,どく,80,物理(physical),Has a $effect_chance% chance to [poison]{mechanic:poison} the target.
+dark-pulse,あくのはどう,あく,80,特殊(special),Has a $effect_chance% chance to make the target flinch.
+night-slash,つじぎり,あく,70,物理(physical),Has an increased chance for a critical hit.
+aqua-tail,アクアテール,みず,90,物理(physical),Inflicts regular damage with no additional effect.
+seed-bomb,タネばくだん,くさ,80,物理(physical),Inflicts regular damage with no additional effect.
+air-slash,エアスラッシュ,ひこう,75,特殊(special),Has a $effect_chance% chance to make the target flinch.
+x-scissor,シザークロス,むし,80,物理(physical),Inflicts regular damage with no additional effect.
+bug-buzz,むしのさざめき,むし,90,特殊(special),Has a $effect_chance% chance to lower the target's Special Defense by one stage.
+dragon-pulse,りゅうのはどう,ドラゴン,85,特殊(special),Inflicts regular damage with no additional effect.
+dragon-rush,ドラゴンダイブ,ドラゴン,100,物理(physical),Has a $effect_chance% chance to make the target flinch.
+power-gem,パワージェム,いわ,80,特殊(special),Inflicts regular damage with no additional effect.
+drain-punch,ドレインパンチ,かくとう,75,物理(physical),Drains half the damage inflicted to heal the user.
+vacuum-wave,しんくうは,かくとう,40,特殊(special),Inflicts regular damage with no additional effect.
+focus-blast,きあいだま,かくとう,120,特殊(special),Has a $effect_chance% chance to lower the target's Special Defense by one stage.
+energy-ball,エナジーボール,くさ,90,特殊(special),Has a $effect_chance% chance to lower the target's Special Defense by one stage.
+brave-bird,ブレイブバード,ひこう,120,物理(physical),User receives 1/3 the damage inflicted in recoil.
+earth-power,だいちのちから,じめん,90,特殊(special),Has a $effect_chance% chance to lower the target's Special Defense by one stage.
+switcheroo,すりかえ,あく,0,変化(status),User and target swap items.
+giga-impact,ギガインパクト,ノーマル,150,物理(physical),User foregoes its next turn to recharge.
+nasty-plot,わるだくみ,あく,0,変化(status),Raises the user's Special Attack by two stages.
+bullet-punch,バレットパンチ,はがね,40,物理(physical),Inflicts regular damage with no additional effect.
+avalanche,ゆきなだれ,こおり,60,物理(physical),Inflicts double damage if the user takes damage before attacking this turn.
+ice-shard,こおりのつぶて,こおり,40,物理(physical),Inflicts regular damage with no additional effect.
+shadow-claw,シャドークロー,ゴースト,70,物理(physical),Has an increased chance for a critical hit.
+thunder-fang,かみなりのキバ,でんき,65,物理(physical),Has a $effect_chance% chance to paralyze the target and a $effect_chance% chance to make the target flinch.
+ice-fang,こおりのキバ,こおり,65,物理(physical),Has a $effect_chance% chance to freeze the target and a $effect_chance% chance to make the target flinch.
+fire-fang,ほのおのキバ,ほのお,65,物理(physical),Has a $effect_chance% chance to [burn]{mechanic:burn} the target and a $effect_chance% chance to make the target flinch.
+shadow-sneak,かげうち,ゴースト,40,物理(physical),Inflicts regular damage with no additional effect.
+mud-bomb,どろばくだん,じめん,65,特殊(special),Has a $effect_chance% chance to lower the target's accuracy by one stage.
+psycho-cut,サイコカッター,エスパー,70,物理(physical),Has an increased chance for a critical hit.
+zen-headbutt,しねんのずつき,エスパー,80,物理(physical),Has a $effect_chance% chance to make the target flinch.
+mirror-shot,ミラーショット,はがね,65,特殊(special),Has a $effect_chance% chance to lower the target's accuracy by one stage.
+flash-cannon,ラスターカノン,はがね,80,特殊(special),Has a $effect_chance% chance to lower the target's Special Defense by one stage.
+rock-climb,ロッククライム,ノーマル,90,物理(physical),Has a $effect_chance% chance to confuse the target.
+defog,きりばらい,ひこう,0,変化(status),Lowers the target's evasion by one stage.  Removes field effects from the enemy field.
+trick-room,トリックルーム,エスパー,0,変化(status),"For five turns, slower Pokemon will act before faster Pokemon."
+draco-meteor,りゅうせいぐん,ドラゴン,130,特殊(special),Lowers the user's Special Attack by two stages after inflicting damage.
+discharge,ほうでん,でんき,80,特殊(special),Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.
+lava-plume,ふんえん,ほのお,80,特殊(special),Has a $effect_chance% chance to [burn]{mechanic:burn} the target.
+leaf-storm,リーフストーム,くさ,130,特殊(special),Lowers the user's Special Attack by two stages after inflicting damage.
+power-whip,パワーウィップ,くさ,120,物理(physical),Inflicts regular damage with no additional effect.
+rock-wrecker,がんせきほう,いわ,150,物理(physical),User foregoes its next turn to recharge.
+cross-poison,クロスポイズン,どく,70,物理(physical),Has an increased chance for a critical hit and a $effect_chance% chance to poison the target.
+gunk-shot,ダストシュート,どく,120,物理(physical),Has a $effect_chance% chance to [poison]{mechanic:poison} the target.
+iron-head,アイアンヘッド,はがね,80,物理(physical),Has a $effect_chance% chance to make the target flinch.
+magnet-bomb,マグネットボム,はがね,60,物理(physical),Never misses.
+stone-edge,ストーンエッジ,いわ,100,物理(physical),Has an increased chance for a critical hit.
+captivate,ゆうわく,ノーマル,0,変化(status),Lowers the target's Special Attack by two stages if it's the opposite gender.
+stealth-rock,ステルスロック,いわ,0,変化(status),Causes damage when opposing Pokemon switch in.
+grass-knot,くさむすび,くさ,0,特殊(special),"Inflicts more damage to heavier targets, with a maximum of 120 power."
+chatter,おしゃべり,ひこう,65,特殊(special),Has a higher chance to confuse the target when the recorded sound is louder.
+judgment,さばきのつぶて,ノーマル,100,特殊(special),"If the user is holding a appropriate plate or drive, the damage inflicted will match it."
+bug-bite,むしくい,むし,60,物理(physical),"If target has a berry, inflicts double damage and uses the berry."
+charge-beam,チャージビーム,でんき,50,特殊(special),Has a $effect_chance% chance to raise the user's Special Attack by one stage.
+wood-hammer,ウッドハンマー,くさ,120,物理(physical),User receives 1/3 the damage inflicted in recoil.
+aqua-jet,アクアジェット,みず,40,物理(physical),Inflicts regular damage with no additional effect.
+attack-order,こうげきしれい,むし,90,物理(physical),Has an increased chance for a critical hit.
+defend-order,ぼうぎょしれい,むし,0,変化(status),Raises the user's Defense and Special Defense by one stage.
+heal-order,かいふくしれい,むし,0,変化(status),Heals the user by half its max HP.
+head-smash,もろはのずつき,いわ,150,物理(physical),User receives 1/2 the damage inflicted in recoil.
+double-hit,ダブルアタック,ノーマル,35,物理(physical),Hits twice in one turn.
+roar-of-time,ときのほうこう,ドラゴン,150,特殊(special),User foregoes its next turn to recharge.
+spacial-rend,あくうせつだん,ドラゴン,100,特殊(special),Has an increased chance for a critical hit.
+lunar-dance,みかづきのまい,エスパー,0,変化(status),"User faints, and its replacement is fully healed."
+crush-grip,にぎりつぶす,ノーマル,0,物理(physical),"Power increases against targets with more HP remaining, up to a maximum of 121 power."
+magma-storm,マグマストーム,ほのお,100,特殊(special),Prevents the target from fleeing and inflicts damage for 2-5 turns.
+dark-void,ダークホール,あく,0,変化(status),Puts the target to sleep.
+seed-flare,シードフレア,くさ,120,特殊(special),Has a $effect_chance% chance to lower the target's Special Defense by two stages.
+ominous-wind,あやしいかぜ,ゴースト,60,特殊(special),Has a $effect_chance% chance to raise all of the user's stats by one stage.
+shadow-force,シャドーダイブ,ゴースト,120,物理(physical),"User vanishes, dodging all attacks, and hits next turn.  Hits through Protect and Detect."
+hone-claws,つめとぎ,あく,0,変化(status),Raises the user's Attack and accuracy by one stage.
+wide-guard,ワイドガード,いわ,0,変化(status),Prevents any multi-target moves from hitting friendly Pokemon this turn.
+guard-split,ガードシェア,エスパー,0,変化(status),Averages Defense and Special Defense with the target.
+power-split,パワーシェア,エスパー,0,変化(status),Averages Attack and Special Attack with the target.
+wonder-room,ワンダールーム,エスパー,0,変化(status),All Pokemon's Defense and Special Defense are swapped for 5 turns.
+psyshock,サイコショック,エスパー,80,特殊(special),"Inflicts damage based on the target's Defense, not Special Defense."
+venoshock,ベノムショック,どく,65,特殊(special),Inflicts double damage if the target is Poisoned.
+autotomize,ボディパージ,はがね,0,変化(status),Raises the user's Speed by two stages and halves the user's weight.
+rage-powder,いかりのこな,むし,0,変化(status),Redirects the target's single-target effects to the user for this turn.
+telekinesis,テレキネシス,エスパー,0,変化(status),Moves have 100% accuracy against the target for three turns.
+magic-room,マジックルーム,エスパー,0,変化(status),Negates held items for five turns.
+smack-down,うちおとす,いわ,50,物理(physical),Removes any immunity to Ground damage.
+storm-throw,やまあらし,かくとう,60,物理(physical),Always scores a critical hit.
+flame-burst,はじけるほのお,ほのお,70,特殊(special),Deals splash damage to Pokemon next to the target.
+sludge-wave,ヘドロウェーブ,どく,95,特殊(special),Has a $effect_chance% chance to [poison]{mechanic:poison} the target.
+quiver-dance,ちょうのまい,むし,0,変化(status),"Raises the user's Special Attack, Special Defense, and Speed by one stage each."
+heavy-slam,ヘビーボンバー,はがね,0,物理(physical),"Power is higher when the user weighs more than the target, up to a maximum of 120."
+synchronoise,シンクロノイズ,エスパー,120,特殊(special),Hits any Pokemon that shares a type with the user.
+electro-ball,エレキボール,でんき,0,特殊(special),"Power is higher when the user has greater Speed than the target, up to a maximum of 150."
+soak,みずびたし,みず,0,変化(status),Changes the target's type to Water.
+flame-charge,ニトロチャージ,ほのお,50,物理(physical),Inflicts regular damage.  Raises the user's Speed by one stage.
+coil,とぐろをまく,どく,0,変化(status),"Raises the user's Attack, Defense, and accuracy by one stage each."
+low-sweep,ローキック,かくとう,65,物理(physical),Lowers the target's Speed by one stage.
+acid-spray,アシッドボム,どく,40,特殊(special),Lowers the target's Special Defense by two stages.
+foul-play,イカサマ,あく,95,物理(physical),Calculates damage with the target's attacking stat.
+simple-beam,シンプルビーム,ノーマル,0,変化(status),Changes the target's ability to Simple.
+entrainment,なかまづくり,ノーマル,0,変化(status),Copies the user's ability onto the target.
+after-you,おさきにどうぞ,ノーマル,0,変化(status),Makes the target act next this turn.
+round,りんしょう,ノーマル,60,特殊(special),Has double power if it's used more than once per turn.
+echoed-voice,エコーボイス,ノーマル,40,特殊(special),"Power increases by 100% for each consecutive use by any friendly Pokemon, to a maximum of 200."
+chip-away,なしくずし,ノーマル,70,物理(physical),Ignores the target's stat modifiers.
+clear-smog,クリアスモッグ,どく,50,特殊(special),Removes all of the target's stat modifiers.
+stored-power,アシストパワー,エスパー,20,特殊(special),"Power is higher the more the user's stats have been raised, to a maximum of 31×."
+quick-guard,ファストガード,かくとう,0,変化(status),Prevents any priority moves from hitting friendly Pokemon this turn.
+ally-switch,サイドチェンジ,エスパー,0,変化(status),User switches places with the friendly Pokemon opposite it.
+scald,ねっとう,みず,80,特殊(special),Has a $effect_chance% chance to [burn]{mechanic:burn} the target.
+shell-smash,からをやぶる,ノーマル,0,変化(status),"Raises user's Attack, Special Attack, and Speed by two stages.  Lower user's Defense and Special Defense by one stage."
+heal-pulse,いやしのはどう,エスパー,0,変化(status),Heals the target for half its max HP.
+hex,たたりめ,ゴースト,65,特殊(special),Has double power if the target has a major status ailment.
+sky-drop,フリーフォール,ひこう,60,物理(physical),"Carries the target high into the air, dodging all attacks against either, and drops it next turn."
+shift-gear,ギアチェンジ,はがね,0,変化(status),Raises the user's Attack by one stage and its Speed by two stages.
+circle-throw,ともえなげ,かくとう,60,物理(physical),Ends wild battles.  Forces trainers to switch Pokemon.
+incinerate,やきつくす,ほのお,60,特殊(special),Destroys the target's held berry.
+quash,さきおくり,あく,0,変化(status),Makes the target act last this turn.
+acrobatics,アクロバット,ひこう,55,物理(physical),Has double power if the user has no held item.
+reflect-type,ミラータイプ,ノーマル,0,変化(status),User becomes the target's type.
+retaliate,かたきうち,ノーマル,70,物理(physical),Has double power if a friendly Pokemon fainted last turn.
+final-gambit,いのちがけ,かくとう,0,特殊(special),Inflicts damage equal to the user's remaining HP.  User faints.
+bestow,ギフトパス,ノーマル,0,変化(status),Gives the user's held item to the target.
+inferno,れんごく,ほのお,100,特殊(special),Has a $effect_chance% chance to [burn]{mechanic:burn} the target.
+water-pledge,みずのちかい,みず,80,特殊(special),"With [Grass Pledge]{move:grass-pledge}, halves opposing Pokemon's Speed for four turns."
+fire-pledge,ほのおのちかい,ほのお,80,特殊(special),"With [Water Pledge]{move:water-pledge}, doubles the effect chance of friendly Pokemon's moves for four turns."
+grass-pledge,くさのちかい,くさ,80,特殊(special),"With [Fire Pledge]{move:fire-pledge}, damages opposing Pokemon for 1/8 their max HP every turn for four turns."
+volt-switch,ボルトチェンジ,でんき,70,特殊(special),User must switch out after attacking.
+struggle-bug,むしのていこう,むし,50,特殊(special),Has a $effect_chance% chance to lower the target's Special Attack by one stage.
+bulldoze,じならし,じめん,60,物理(physical),Has a $effect_chance% chance to lower the target's Speed by one stage.
+frost-breath,こおりのいぶき,こおり,60,特殊(special),Always scores a critical hit.
+dragon-tail,ドラゴンテール,ドラゴン,60,物理(physical),Ends wild battles.  Forces trainers to switch Pokemon.
+work-up,ふるいたてる,ノーマル,0,変化(status),Raises the user's Attack and Special Attack by one stage each.
+electroweb,エレキネット,でんき,55,特殊(special),Lowers the target's Speed by one stage.
+wild-charge,ワイルドボルト,でんき,90,物理(physical),User receives 1/4 the damage it inflicts in recoil.
+drill-run,ドリルライナー,じめん,80,物理(physical),Has an increased chance for a critical hit.
+dual-chop,ダブルチョップ,ドラゴン,40,物理(physical),Hits twice in one turn.
+heart-stamp,ハートスタンプ,エスパー,60,物理(physical),Has a $effect_chance% chance to make the target flinch.
+horn-leech,ウッドホーン,くさ,75,物理(physical),Drains half the damage inflicted to heal the user.
+sacred-sword,せいなるつるぎ,かくとう,90,物理(physical),Ignores the target's stat modifiers.
+razor-shell,シェルブレード,みず,75,物理(physical),Has a $effect_chance% chance to lower the target's Defense by one stage.
+heat-crash,ヒートスタンプ,ほのお,0,物理(physical),"Power is higher when the user weighs more than the target, up to a maximum of 120."
+leaf-tornado,グラスミキサー,くさ,65,特殊(special),Has a $effect_chance% chance to lower the target's accuracy by one stage.
+steamroller,ハードローラー,むし,65,物理(physical),Has a $effect_chance% chance to make the target flinch.
+cotton-guard,コットンガード,くさ,0,変化(status),Raises the user's Defense by three stages.
+night-daze,ナイトバースト,あく,85,特殊(special),Has a $effect_chance% chance to lower the target's accuracy by one stage.
+psystrike,サイコブレイク,エスパー,100,特殊(special),"Inflicts damage based on the target's Defense, not Special Defense."
+tail-slap,スイープビンタ,ノーマル,25,物理(physical),Hits 2-5 times in one turn.
+hurricane,ぼうふう,ひこう,110,特殊(special),Has a $effect_chance% chance to confuse the target.
+head-charge,アフロブレイク,ノーマル,120,物理(physical),User receives 1/4 the damage it inflicts in recoil.
+gear-grind,ギアソーサー,はがね,50,物理(physical),Hits twice in one turn.
+searing-shot,かえんだん,ほのお,100,特殊(special),Has a $effect_chance% chance to [burn]{mechanic:burn} the target.
+techno-blast,テクノバスター,ノーマル,120,特殊(special),"If the user is holding a appropriate plate or drive, the damage inflicted will match it."
+relic-song,いにしえのうた,ノーマル,75,特殊(special),Has a $effect_chance% chance to put the target to sleep.
+secret-sword,しんぴのつるぎ,かくとう,85,特殊(special),"Inflicts damage based on the target's Defense, not Special Defense."
+glaciate,こごえるせかい,こおり,65,特殊(special),Lowers the target's Speed by one stage.
+bolt-strike,らいげき,でんき,130,物理(physical),Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.
+blue-flare,あおいほのお,ほのお,130,特殊(special),Has a $effect_chance% chance to [burn]{mechanic:burn} the target.
+fiery-dance,ほのおのまい,ほのお,80,特殊(special),Has a $effect_chance% chance to raise the user's Special Attack by one stage.
+freeze-shock,フリーズボルト,こおり,140,物理(physical),Requires a turn to charge before attacking.  Has a $effect_chance% chance to paralyze the target.
+ice-burn,コールドフレア,こおり,140,特殊(special),Requires a turn to charge before attacking.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.
+snarl,バークアウト,あく,55,特殊(special),Has a $effect_chance% chance to lower the target's Special Attack by one stage.
+icicle-crash,つららおとし,こおり,85,物理(physical),Has a $effect_chance% chance to make the target flinch.
+v-create,Ｖジェネレート,ほのお,180,物理(physical),"Lowers the user's Defense, Special Defense, and Speed by one stage each."
+fusion-flare,クロスフレイム,ほのお,100,特殊(special),"With [Fusion Bolt]{move:fusion-bolt}, inflicts double damage."
+fusion-bolt,クロスサンダー,でんき,100,物理(physical),"With [Fusion Flare]{move:fusion-flare}, inflicts double damage."
+flying-press,フライングプレス,かくとう,100,物理(physical),Deals both []{type:fighting} and []{type:flying}-type damage.
+mat-block,たたみがえし,かくとう,0,変化(status),Protects all friendly Pokemon from damaging moves.  Only works on the first turn after the user is sent out.
+belch,ゲップ,どく,120,特殊(special),Can only be used after the user has eaten a berry.
+rototiller,たがやす,じめん,0,変化(status),Raises the Attack and Special Attack of all []{type:grass} Pokemon in battle.
+sticky-web,ねばねばネット,むし,0,変化(status),"Covers the opposing field, lowering opponents' Speed by one stage upon switching in."
+fell-stinger,とどめばり,むし,50,物理(physical),Raises the user's Attack by two stages if it KOs the target.
+phantom-force,ゴーストダイブ,ゴースト,90,物理(physical),"User vanishes, dodging all attacks, and hits next turn.  Hits through Protect and Detect."
+trick-or-treat,ハロウィン,ゴースト,0,変化(status),Adds []{type:ghost} to the target's types.
+noble-roar,おたけび,ノーマル,0,変化(status),Lowers the target's Attack and Special Attack by one stage.
+ion-deluge,プラズマシャワー,でんき,0,変化(status),Changes all []{type:normal} moves to []{type:electric} moves for the rest of the turn.
+parabolic-charge,パラボラチャージ,でんき,65,特殊(special),Heals the user for half the total damage dealt to all targets.
+forests-curse,もりののろい,くさ,0,変化(status),Adds []{type:grass} to the target's types.
+petal-blizzard,はなふぶき,くさ,90,物理(physical),Inflicts regular damage.
+freeze-dry,フリーズドライ,こおり,70,特殊(special),Super-effective against []{type:water}.
+disarming-voice,チャームボイス,フェアリー,40,特殊(special),Never misses.
+parting-shot,すてゼリフ,あく,0,変化(status),Lowers all targets' Attack and Special Attack by one stage.  Makes the user switch out.
+topsy-turvy,ひっくりかえす,あく,0,変化(status),Inverts the target's stat modifiers.
+draining-kiss,ドレインキッス,フェアリー,50,特殊(special),Drains 75% of the damage inflicted to heal the user.
+crafty-shield,トリックガード,フェアリー,0,変化(status),Protects all friendly Pokemon from non-damaging moves.
+flower-shield,フラワーガード,フェアリー,0,変化(status),Raises the Defense of all []{type:grass} Pokemon in battle.
+grassy-terrain,グラスフィールド,くさ,0,変化(status),"For five turns, heals all Pokemon on the ground for 1/16 max HP each turn and strengthens their []{type:grass} moves to 1.5× their power."
+misty-terrain,ミストフィールド,フェアリー,0,変化(status),"For five turns, protects all Pokemon on the ground from major status ailments and confusion, and halves the power of incoming []{type:dragon} moves."
+electrify,そうでん,でんき,0,変化(status),Changes the target's move's type to []{type:electric} if it hasn't moved yet this turn.
+play-rough,じゃれつく,フェアリー,90,物理(physical),Has a $effect_chance% chance to lower the target's Attack by one stage.
+fairy-wind,ようせいのかぜ,フェアリー,40,特殊(special),Inflicts regular damage with no additional effect.
+moonblast,ムーンフォース,フェアリー,95,特殊(special),Has a $effect_chance% chance to lower the target's Special Attack by one stage.
+boomburst,ばくおんぱ,ノーマル,140,特殊(special),Inflicts regular damage.
+fairy-lock,フェアリーロック,フェアリー,0,変化(status),Prevents all Pokemon from fleeing or switching out during the next turn.
+kings-shield,キングシールド,はがね,0,変化(status),Blocks damaging attacks and lowers attacking Pokemon's Attack by two stages on contact.  Switches Aegislash to Shield Forme.
+play-nice,なかよくする,ノーマル,0,変化(status),Lowers the target's Attack by one stage.
+confide,ないしょばなし,ノーマル,0,変化(status),Lowers the target's Special Attack by one stage.
+diamond-storm,ダイヤストーム,いわ,100,物理(physical),Has a $effect_chance% chance to raise the user's Defense by two stages for each target hit.
+steam-eruption,スチームバースト,みず,110,特殊(special),Has a $effect_chance% chance to [burn]{mechanic:burn} the target.
+hyperspace-hole,いじげんホール,エスパー,80,特殊(special),Ignores and destroys protection effects.
+water-shuriken,みずしゅりけん,みず,15,特殊(special),Hits 2
+mystical-fire,マジカルフレイム,ほのお,75,特殊(special),Has a $effect_chance% chance to lower the target's Special Attack by one stage.
+spiky-shield,ニードルガード,くさ,0,変化(status),Blocks damaging attacks and damages attacking Pokemon for 1/8 their max HP.
+aromatic-mist,アロマミスト,フェアリー,0,変化(status),Raises a selected ally's Special Defense by one stage.
+eerie-impulse,かいでんぱ,でんき,0,変化(status),Lowers the target's Special Attack by two stages.
+venom-drench,ベノムトラップ,どく,0,変化(status),"Lowers the target's Attack, Special Attack, and Speed by one stage if it is poisoned."
+powder,ふんじん,むし,0,変化(status),"Explodes if the target uses a []{type:fire} move this turn, damaging it for 1/4 its max HP and preventing the move."
+geomancy,ジオコントロール,フェアリー,0,変化(status),"Takes one turn to charge, then raises the user's Special Attack, Special Defense, and Speed by two stages."
+magnetic-flux,じばそうさ,でんき,0,変化(status),Raises the Defense and Special Defense of all friendly Pokemon with []{ability:plus} or []{ability:minus} by one stage.
+happy-hour,ハッピータイム,ノーマル,0,変化(status),Doubles prize money.
+electric-terrain,エレキフィールド,でんき,0,変化(status),"For five turns, prevents all Pokemon on the ground from sleeping and strengthens their []{type:electric} moves to 1.5× their power."
+dazzling-gleam,マジカルシャイン,フェアリー,80,特殊(special),Inflicts regular damage with no additional effect.
+celebrate,おいわい,ノーマル,0,変化(status),Does nothing.
+hold-hands,てをつなぐ,ノーマル,0,変化(status),Does nothing.
+baby-doll-eyes,つぶらなひとみ,フェアリー,0,変化(status),Lowers the target's Attack by one stage.
+nuzzle,ほっぺすりすり,でんき,20,物理(physical),Has a $effect_chance% chance to paralyze the target.
+hold-back,てかげん,ノーマル,40,物理(physical),Cannot lower the target's HP below 1.
+infestation,まとわりつく,むし,20,特殊(special),Prevents the target from fleeing and inflicts damage for 2-5 turns.
+power-up-punch,グロウパンチ,かくとう,40,物理(physical),Raises the user's Attack by one stage after inflicting damage.
+oblivion-wing,デスウイング,ひこう,80,特殊(special),Drains 75% of the damage inflicted to heal the user.
+thousand-arrows,サウザンアロー,じめん,90,物理(physical),"Grounds the target, and hits even Flying-type or levitating Pokemon."
+thousand-waves,サウザンウェーブ,じめん,90,物理(physical),Prevents the target from leaving battle.
+lands-wrath,グランドフォース,じめん,90,物理(physical),Inflicts regular damage with no additional effect.
+light-of-ruin,はめつのひかり,フェアリー,140,特殊(special),User receives 1/2 the damage inflicted in recoil.
+origin-pulse,こんげんのはどう,みず,110,特殊(special),Inflicts regular damage with no additional effect.
+precipice-blades,だんがいのつるぎ,じめん,120,物理(physical),Inflicts regular damage with no additional effect.
+dragon-ascent,ガリョウテンセイ,ひこう,120,物理(physical),Lowers the user's Defense and Special Defense by one stage after inflicting damage.
+hyperspace-fury,いじげんラッシュ,あく,100,物理(physical),Ignores and destroys protection effects.
+breakneck-blitz--physical,ウルトラダッシュアタック,ノーマル,0,物理(physical),Inflicts regular damage with no additional effect.
+breakneck-blitz--special,ウルトラダッシュアタック,ノーマル,0,特殊(special),Inflicts regular damage with no additional effect.
+all-out-pummeling--physical,ぜんりょくむそうげきれつけん,かくとう,0,物理(physical),Inflicts regular damage with no additional effect.
+all-out-pummeling--special,ぜんりょくむそうげきれつけん,かくとう,0,特殊(special),Inflicts regular damage with no additional effect.
+supersonic-skystrike--physical,ファイナルダイブクラッシュ,ひこう,0,物理(physical),Inflicts regular damage with no additional effect.
+supersonic-skystrike--special,ファイナルダイブクラッシュ,ひこう,0,特殊(special),Inflicts regular damage with no additional effect.
+acid-downpour--physical,アシッドポイズンデリート,どく,0,物理(physical),Inflicts regular damage with no additional effect.
+acid-downpour--special,アシッドポイズンデリート,どく,0,特殊(special),Inflicts regular damage with no additional effect.
+tectonic-rage--physical,ライジングランドオーバー,じめん,0,物理(physical),Inflicts regular damage with no additional effect.
+tectonic-rage--special,ライジングランドオーバー,じめん,0,特殊(special),Inflicts regular damage with no additional effect.
+continental-crush--physical,ワールズエンドフォール,いわ,0,物理(physical),Inflicts regular damage with no additional effect.
+continental-crush--special,ワールズエンドフォール,いわ,0,特殊(special),Inflicts regular damage with no additional effect.
+savage-spin-out--physical,ぜったいほしょくかいてんざん,むし,0,物理(physical),Inflicts regular damage with no additional effect.
+savage-spin-out--special,ぜったいほしょくかいてんざん,むし,0,特殊(special),Inflicts regular damage with no additional effect.
+never-ending-nightmare--physical,むげんあんやへのいざない,ゴースト,0,物理(physical),Inflicts regular damage with no additional effect.
+never-ending-nightmare--special,むげんあんやへのいざない,ゴースト,0,特殊(special),Inflicts regular damage with no additional effect.
+corkscrew-crash--physical,ちょうぜつらせんれんげき,はがね,0,物理(physical),Inflicts regular damage with no additional effect.
+corkscrew-crash--special,ちょうぜつらせんれんげき,はがね,0,特殊(special),Inflicts regular damage with no additional effect.
+inferno-overdrive--physical,ダイナミックフルフレイム,ほのお,0,物理(physical),Inflicts regular damage with no additional effect.
+inferno-overdrive--special,ダイナミックフルフレイム,ほのお,0,特殊(special),Inflicts regular damage with no additional effect.
+hydro-vortex--physical,スーパーアクアトルネード,みず,0,物理(physical),Inflicts regular damage with no additional effect.
+hydro-vortex--special,スーパーアクアトルネード,みず,0,特殊(special),Inflicts regular damage with no additional effect.
+bloom-doom--physical,ブルームシャインエクストラ,くさ,0,物理(physical),Inflicts regular damage with no additional effect.
+bloom-doom--special,ブルームシャインエクストラ,くさ,0,特殊(special),Inflicts regular damage with no additional effect.
+gigavolt-havoc--physical,スパーキングギガボルト,でんき,0,物理(physical),Inflicts regular damage with no additional effect.
+gigavolt-havoc--special,スパーキングギガボルト,でんき,0,特殊(special),Inflicts regular damage with no additional effect.
+shattered-psyche--physical,マキシマムサイブレイカー,エスパー,0,物理(physical),Inflicts regular damage with no additional effect.
+shattered-psyche--special,マキシマムサイブレイカー,エスパー,0,特殊(special),Inflicts regular damage with no additional effect.
+subzero-slammer--physical,レイジングジオフリーズ,こおり,0,物理(physical),Inflicts regular damage with no additional effect.
+subzero-slammer--special,レイジングジオフリーズ,こおり,0,特殊(special),Inflicts regular damage with no additional effect.
+devastating-drake--physical,アルティメットドラゴンバーン,ドラゴン,0,物理(physical),Inflicts regular damage with no additional effect.
+devastating-drake--special,アルティメットドラゴンバーン,ドラゴン,0,特殊(special),Inflicts regular damage with no additional effect.
+black-hole-eclipse--physical,ブラックホールイクリプス,あく,0,物理(physical),Inflicts regular damage with no additional effect.
+black-hole-eclipse--special,ブラックホールイクリプス,あく,0,特殊(special),Inflicts regular damage with no additional effect.
+twinkle-tackle--physical,ラブリースターインパクト,フェアリー,0,物理(physical),Inflicts regular damage with no additional effect.
+twinkle-tackle--special,ラブリースターインパクト,フェアリー,0,特殊(special),Inflicts regular damage with no additional effect.
+catastropika,ひっさつのピカチュート,でんき,210,物理(physical),Inflicts regular damage with no additional effect.
+shore-up,すなあつめ,じめん,0,変化(status),Heals the user for 
+first-impression,であいがしら,むし,90,物理(physical),Can only be used as the first move after the user enters battle.
+baneful-bunker,トーチカ,どく,0,変化(status),Grants the user protection for the rest of the turn and poisons any Pokemon that tries to use a contact move on it.
+spirit-shackle,かげぬい,ゴースト,80,物理(physical),Traps the target.
+darkest-lariat,ＤＤラリアット,あく,85,物理(physical),Ignores the target's stat modifiers.
+sparkling-aria,うたかたのアリア,みず,90,特殊(special),Cures the target of burns.
+ice-hammer,アイスハンマー,こおり,100,物理(physical),Lowers user's Speed by one stage.
+floral-healing,フラワーヒール,フェアリー,0,変化(status),Heals the target for 
+high-horsepower,１０まんばりき,じめん,95,物理(physical),Inflicts regular damage with no additional effect.
+strength-sap,ちからをすいとる,くさ,0,変化(status),Heals the user by the target's current Attack stat and lowers the target's Attack by one stage.
+solar-blade,ソーラーブレード,くさ,125,物理(physical),Requires a turn to charge before attacking.
+leafage,このは,くさ,40,物理(physical),Inflicts regular damage with no additional effect.
+spotlight,スポットライト,ノーマル,0,変化(status),Forces the target's opponents to aim at the target for the rest of the turn.
+toxic-thread,どくのいと,どく,0,変化(status),Poisons the target and lowers its Speed by one stage.
+laser-focus,とぎすます,ノーマル,0,変化(status),Guarantees a critical hit with the user's next move.
+gear-up,アシストギア,はがね,0,変化(status),Raises the Attack and Special Attack of all friendly Pokemon with []{ability:plus} or []{ability:minus} by one stage.
+throat-chop,じごくづき,あく,80,物理(physical),Prevents the target from using sound-based moves for two turns.
+pollen-puff,かふんだんご,むし,90,特殊(special),"Damages opponents, but heals allies for 50% of their max HP."
+anchor-shot,アンカーショット,はがね,80,物理(physical),Traps the target.
+psychic-terrain,サイコフィールド,エスパー,0,変化(status),Protects Pokemon on the ground from priority moves and increases the power of their  Psychic moves by 50%.
+lunge,とびかかる,むし,80,物理(physical),Lowers the target's Attack by one stage after inflicting damage.
+fire-lash,ほのおのムチ,ほのお,80,物理(physical),Lowers the target's Defense by one stage after inflicting damage.
+power-trip,つけあがる,あく,20,物理(physical),"Power is higher the more the user's stats have been raised, to a maximum of 31×."
+burn-up,もえつきる,ほのお,130,特殊(special),Removes the user's []{type:fire} type after inflicting damage.
+speed-swap,スピードスワップ,エスパー,0,変化(status),Exchanges the user's Speed with the target's.
+smart-strike,スマートホーン,はがね,70,物理(physical),Never misses.
+purify,じょうか,どく,0,変化(status),Cures the target of a major status ailment and heals the user for 50% of its max HP.
+revelation-dance,めざめるダンス,ノーマル,90,特殊(special),Has the same type as the user.
+core-enforcer,コアパニッシャー,ドラゴン,100,特殊(special),Nullifies the target's ability if it moves earlier.
+trop-kick,トロピカルキック,くさ,70,物理(physical),Lowers the target's Attack by one stage after inflicting damage.
+instruct,さいはい,エスパー,0,変化(status),Forces the target to repeat its last used move.
+beak-blast,くちばしキャノン,ひこう,100,物理(physical),Inflicts a burn on any Pokemon that makes contact before the attack.
+clanging-scales,スケイルノイズ,ドラゴン,110,特殊(special),Lowers the user's Defense by one stage after inflicting damage.
+dragon-hammer,ドラゴンハンマー,ドラゴン,90,物理(physical),Inflicts regular damage with no additional effect.
+brutal-swing,ぶんまわす,あく,60,物理(physical),Inflicts regular damage with no additional effect.
+aurora-veil,オーロラベール,こおり,0,変化(status),"Reduces damage five turns, but must be used during hail."
+sinister-arrow-raid,シャドーアローズストライク,ゴースト,180,物理(physical),Inflicts regular damage with no additional effect.
+malicious-moonsault,ハイパーダーククラッシャー,あく,180,物理(physical),Inflicts regular damage with no additional effect.
+oceanic-operetta,わだつみのシンフォニア,みず,195,特殊(special),Inflicts regular damage with no additional effect.
+guardian-of-alola,ガーディアン・デ・アローラ,フェアリー,0,特殊(special),Damages the target for 75% of its remaining HP.
+soul-stealing-7-star-strike,しちせいだっこんたい,ゴースト,195,物理(physical),Inflicts regular damage with no additional effect.
+stoked-sparksurfer,ライトニングサーフライド,でんき,175,特殊(special),Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.
+pulverizing-pancake,ほんきをだす　こうげき,ノーマル,210,物理(physical),Inflicts regular damage with no additional effect.
+extreme-evoboost,ナインエボルブースト,ノーマル,0,変化(status),Raises all of the user's stats by two stages.
+genesis-supernova,オリジンズスーパーノヴァ,エスパー,185,特殊(special),Changes the terrain to Psychic Terrain after inflicting damage.
+shell-trap,トラップシェル,ほのお,150,特殊(special),Only inflicts damage if the user was hit by a physical move this turn.
+fleur-cannon,フルールカノン,フェアリー,130,特殊(special),Lowers the user's Special Attack by two stages after inflicting damage.
+psychic-fangs,サイコファング,エスパー,85,物理(physical),Destroys Reflect and Light Screen.
+stomping-tantrum,じだんだ,じめん,75,物理(physical),Has double power if the user's last move failed.
+shadow-bone,シャドーボーン,ゴースト,85,物理(physical),Has a $effect_chance% chance to lower the target's Defense by one stage.
+accelerock,アクセルロック,いわ,40,物理(physical),Inflicts regular damage with no additional effect.
+liquidation,アクアブレイク,みず,85,物理(physical),Has a $effect_chance% chance to lower the target's Defense by one stage.
+prismatic-laser,プリズムレーザー,エスパー,160,特殊(special),User foregoes its next turn to recharge.
+spectral-thief,シャドースチール,ゴースト,90,物理(physical),"Steals the target's stat increases, then inflicts damage."
+sunsteel-strike,メテオドライブ,はがね,100,物理(physical),Cannot be disrupted by abilities.
+moongeist-beam,シャドーレイ,ゴースト,100,特殊(special),Cannot be disrupted by abilities.
+tearful-look,なみだめ,ノーマル,0,変化(status),Lowers the target's Attack and Special Attack by one stage.
+zing-zap,びりびりちくちく,でんき,80,物理(physical),Has a $effect_chance% chance to make the target flinch.
+natures-madness,しぜんのいかり,フェアリー,0,特殊(special),Inflicts damage equal to half the target's HP.
+multi-attack,マルチアタック,ノーマル,120,物理(physical),"If the user is holding a appropriate plate or drive, the damage inflicted will match it."
+10-000-000-volt-thunderbolt,１０００まんボルト,でんき,195,特殊(special),Inflicts regular damage with no additional effect.
+mind-blown,ビックリヘッド,ほのお,150,特殊(special),XXX new effect for mind-blown
+plasma-fists,プラズマフィスト,でんき,100,物理(physical),Inflicts regular damage with no additional effect.
+photon-geyser,フォトンゲイザー,エスパー,100,特殊(special),Inflicts regular damage with no additional effect.
+light-that-burns-the-sky,てんこがすめつぼうのひかり,エスパー,200,特殊(special),XXX new effect for light-that-burns-the-sky
+searing-sunraze-smash,サンシャインスマッシャー,はがね,200,物理(physical),Cannot be disrupted by abilities.
+menacing-moonraze-maelstrom,ムーンライトブラスター,ゴースト,200,特殊(special),Cannot be disrupted by abilities.
+lets-snuggle-forever,ぽかぼかフレンドタイム,フェアリー,190,物理(physical),XXX new effect for lets-snuggle-forever
+splintered-stormshards,ラジアルエッジストーム,いわ,190,物理(physical),XXX new effect for splintered-stormshards
+clangorous-soulblaze,ブレイジングソウルビート,ドラゴン,185,特殊(special),XXX new effect for clangorous-soulblaze
+zippy-zap,ばちばちアクセル,でんき,80,物理(physical),Inflicts regular damage with no additional effect.
+splishy-splash,ざぶざぶサーフ,みず,90,特殊(special),Inflicts regular damage with no additional effect.
+floaty-fall,ふわふわフォール,ひこう,90,物理(physical),Inflicts regular damage with no additional effect.
+pika-papow,ピカピカサンダー,でんき,0,特殊(special),Inflicts regular damage with no additional effect.
+bouncy-bubble,いきいきバブル,みず,60,特殊(special),Inflicts regular damage with no additional effect.
+buzzy-buzz,びりびりエレキ,でんき,60,特殊(special),Inflicts regular damage with no additional effect.
+sizzly-slide,めらめらバーン,ほのお,60,物理(physical),Inflicts regular damage with no additional effect.
+glitzy-glow,どばどばオーラ,エスパー,80,特殊(special),Inflicts regular damage with no additional effect.
+baddy-bad,わるわるゾーン,あく,80,特殊(special),Inflicts regular damage with no additional effect.
+sappy-seed,すくすくボンバー,くさ,100,物理(physical),Inflicts regular damage with no additional effect.
+freezy-frost,こちこちフロスト,こおり,100,特殊(special),Inflicts regular damage with no additional effect.
+sparkly-swirl,きらきらストーム,フェアリー,120,特殊(special),Inflicts regular damage with no additional effect.
+veevee-volley,ブイブイブレイク,ノーマル,0,物理(physical),Inflicts regular damage with no additional effect.
+double-iron-bash,ダブルパンツァー,はがね,60,物理(physical),Hits twice in one turn.
+max-guard,ダイウォール,ノーマル,0,変化(status),Prevents any moves from hitting the user this turn.
+dynamax-cannon,ダイマックスほう,ドラゴン,100,特殊(special),XXX new effect for dynamax-cannon
+snipe-shot,ねらいうち,みず,80,特殊(special),XXX new effect for snipe-shot
+jaw-lock,くらいつく,あく,80,物理(physical),XXX new effect for jaw-lock
+stuff-cheeks,ほおばる,ノーマル,0,変化(status),XXX new effect for stuff-cheeks
+no-retreat,はいすいのじん,かくとう,0,変化(status),XXX new effect for no-retreat
+tar-shot,タールショット,いわ,0,変化(status),XXX new effect for tar-shot
+magic-powder,まほうのこな,エスパー,0,変化(status),XXX new effect for magic-powder
+dragon-darts,ドラゴンアロー,ドラゴン,50,物理(physical),XXX new effect for dragon-darts
+teatime,おちゃかい,ノーマル,0,変化(status),XXX new effect for teatime
+octolock,たこがため,かくとう,0,変化(status),XXX new effect for octolock
+bolt-beak,でんげきくちばし,でんき,85,物理(physical),XXX new effect for bolt-beak
+fishious-rend,エラがみ,みず,85,物理(physical),XXX new effect for bolt-beak
+court-change,コートチェンジ,ノーマル,0,変化(status),XXX new effect for court-change
+max-flare,ダイバーン,ほのお,100,物理(physical),Inflicts regular damage with no additional effect.
+max-flutterby,ダイワーム,むし,10,物理(physical),Inflicts regular damage with no additional effect.
+max-lightning,ダイサンダー,でんき,10,物理(physical),Inflicts regular damage with no additional effect.
+max-strike,ダイアタック,ノーマル,10,物理(physical),Inflicts regular damage with no additional effect.
+max-knuckle,ダイナックル,かくとう,10,物理(physical),Inflicts regular damage with no additional effect.
+max-phantasm,ダイホロウ,ゴースト,10,物理(physical),Inflicts regular damage with no additional effect.
+max-hailstorm,ダイアイス,こおり,10,物理(physical),Inflicts regular damage with no additional effect.
+max-ooze,ダイアシッド,どく,10,物理(physical),Inflicts regular damage with no additional effect.
+max-geyser,ダイストリーム,みず,10,物理(physical),Inflicts regular damage with no additional effect.
+max-airstream,ダイジェット,ひこう,10,物理(physical),Inflicts regular damage with no additional effect.
+max-starfall,ダイフェアリー,フェアリー,10,物理(physical),Inflicts regular damage with no additional effect.
+max-wyrmwind,ダイドラグーン,ドラゴン,10,物理(physical),Inflicts regular damage with no additional effect.
+max-mindstorm,ダイサイコ,エスパー,10,物理(physical),Inflicts regular damage with no additional effect.
+max-rockfall,ダイロック,いわ,10,物理(physical),Inflicts regular damage with no additional effect.
+max-quake,ダイアース,じめん,10,物理(physical),Inflicts regular damage with no additional effect.
+max-darkness,ダイアーク,あく,10,物理(physical),Inflicts regular damage with no additional effect.
+max-overgrowth,ダイソウゲン,くさ,10,物理(physical),Inflicts regular damage with no additional effect.
+max-steelspike,ダイスチル,はがね,10,物理(physical),Inflicts regular damage with no additional effect.
+clangorous-soul,ソウルビート,ドラゴン,0,変化(status),XXX new effect for clangorous-soul
+body-press,ボディプレス,かくとう,80,物理(physical),XXX new effect for body-press
+decorate,デコレーション,フェアリー,0,変化(status),XXX new effect for decorate
+drum-beating,ドラムアタック,くさ,80,物理(physical),Has a $effect_chance% chance to lower the target's Speed by one stage.
+snap-trap,トラバサミ,くさ,35,物理(physical),Prevents the target from fleeing and inflicts damage for 2-5 turns.
+pyro-ball,かえんボール,ほのお,120,物理(physical),Has a $effect_chance% chance to [burn]{mechanic:burn} the target.
+behemoth-blade,きょじゅうざん,はがね,100,物理(physical),XXX new effect for behemoth-blade
+behemoth-bash,きょじゅうだん,はがね,100,物理(physical),XXX new effect for behemoth-blade
+aura-wheel,オーラぐるま,でんき,110,物理(physical),XXX new effect for aura-wheel
+breaking-swipe,ワイドブレイカー,ドラゴン,60,物理(physical),Lowers the target's Attack by one stage after inflicting damage.
+branch-poke,えだづき,くさ,40,物理(physical),Inflicts regular damage with no additional effect.
+overdrive,オーバードライブ,でんき,80,特殊(special),XXX new effect for overdrive
+apple-acid,りんごさん,くさ,80,特殊(special),XXX new effect for apple-acid
+grav-apple,Ｇのちから,くさ,80,物理(physical),Lowers the target's Defense by one stage after inflicting damage.
+spirit-break,ソウルクラッシュ,フェアリー,75,物理(physical),Has a $effect_chance% chance to lower the target's Special Attack by one stage.
+strange-steam,ワンダースチーム,フェアリー,90,特殊(special),Has a $effect_chance% chance to confuse the target.
+life-dew,いのちのしずく,みず,0,変化(status),XXX new effect for life-dew
+obstruct,ブロッキング,あく,0,変化(status),XXX new effect for obstruct
+false-surrender,どげざつき,あく,80,物理(physical),Never misses.
+meteor-assault,スターアサルト,かくとう,150,物理(physical),User foregoes its next turn to recharge.
+eternabeam,ムゲンダイビーム,ドラゴン,160,特殊(special),User foregoes its next turn to recharge.
+steel-beam,てっていこうせん,はがね,140,特殊(special),XXX new effect for mind-blown
+expanding-force,ワイドフォース,エスパー,80,特殊(special),Inflicts regular damage with no additional effect.
+steel-roller,アイアンローラー,はがね,130,物理(physical),Inflicts regular damage with no additional effect.
+scale-shot,スケイルショット,ドラゴン,25,物理(physical),Inflicts regular damage with no additional effect.
+meteor-beam,メテオビーム,いわ,120,特殊(special),Inflicts regular damage with no additional effect.
+shell-side-arm,シェルアームズ,どく,90,特殊(special),Inflicts regular damage with no additional effect.
+misty-explosion,ミストバースト,フェアリー,100,特殊(special),Inflicts regular damage with no additional effect.
+grassy-glide,グラススライダー,くさ,70,物理(physical),Inflicts regular damage with no additional effect.
+rising-voltage,ライジングボルト,でんき,70,特殊(special),Inflicts regular damage with no additional effect.
+terrain-pulse,だいちのはどう,ノーマル,50,特殊(special),Inflicts regular damage with no additional effect.
+skitter-smack,はいよるいちげき,むし,70,物理(physical),Inflicts regular damage with no additional effect.
+burning-jealousy,しっとのほのお,ほのお,70,特殊(special),Inflicts regular damage with no additional effect.
+lash-out,うっぷんばらし,あく,75,物理(physical),Inflicts regular damage with no additional effect.
+poltergeist,ポルターガイスト,ゴースト,110,物理(physical),Inflicts regular damage with no additional effect.
+corrosive-gas,ふしょくガス,どく,0,変化(status),Inflicts regular damage with no additional effect.
+coaching,コーチング,かくとう,0,変化(status),Inflicts regular damage with no additional effect.
+flip-turn,クイックターン,みず,60,物理(physical),Inflicts regular damage with no additional effect.
+triple-axel,トリプルアクセル,こおり,20,物理(physical),Inflicts regular damage with no additional effect.
+dual-wingbeat,ダブルウイング,ひこう,40,物理(physical),Inflicts regular damage with no additional effect.
+scorching-sands,ねっさのだいち,じめん,70,特殊(special),Inflicts regular damage with no additional effect.
+jungle-healing,ジャングルヒール,くさ,0,変化(status),Inflicts regular damage with no additional effect.
+wicked-blow,あんこくきょうだ,あく,80,物理(physical),Inflicts regular damage with no additional effect.
+surging-strikes,すいりゅうれんだ,みず,25,物理(physical),Inflicts regular damage with no additional effect.
+thunder-cage,サンダープリズン,でんき,80,特殊(special),Inflicts regular damage with no additional effect.
+dragon-energy,ドラゴンエナジー,ドラゴン,150,特殊(special),Inflicts regular damage with no additional effect.
+freezing-glare,いてつくしせん,エスパー,90,特殊(special),Inflicts regular damage with no additional effect.
+fiery-wrath,もえあがるいかり,あく,90,特殊(special),Inflicts regular damage with no additional effect.
+thunderous-kick,らいめいげり,かくとう,90,物理(physical),Inflicts regular damage with no additional effect.
+glacial-lance,ブリザードランス,こおり,130,物理(physical),Inflicts regular damage with no additional effect.
+astral-barrage,アストラルビット,ゴースト,120,特殊(special),Inflicts regular damage with no additional effect.
+eerie-spell,ぶきみなじゅもん,エスパー,80,特殊(special),Inflicts regular damage with no additional effect.
+shadow-rush,NA,NA,55,物理(physical),Has an increased chance for a critical hit in Hyper Mode.
+shadow-blast,NA,NA,80,物理(physical),Has an increased chance for a critical hit.
+shadow-blitz,NA,NA,40,物理(physical),Inflicts regular damage with no additional effect.
+shadow-bolt,NA,NA,75,特殊(special),Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.
+shadow-break,NA,NA,75,物理(physical),Inflicts regular damage with no additional effect.
+shadow-chill,NA,NA,75,特殊(special),Has a $effect_chance% chance to [freeze]{mechanic:freeze} the target.
+shadow-end,NA,NA,120,物理(physical),User receives 1/2 its HP in recoil.
+shadow-fire,NA,NA,75,特殊(special),Has a $effect_chance% chance to [burn]{mechanic:burn} the target.
+shadow-rave,NA,NA,70,特殊(special),Inflicts regular damage with no additional effect.
+shadow-storm,NA,NA,95,特殊(special),Inflicts regular damage with no additional effect.
+shadow-wave,NA,NA,50,特殊(special),Inflicts regular damage with no additional effect.
+shadow-down,NA,NA,0,変化(status),Lowers the target's Defense by two stages.
+shadow-half,NA,NA,0,特殊(special),Halves HP of all Pokemon on the field.  Must recharge
+shadow-hold,NA,NA,0,変化(status),Prevents the target from leaving battle.
+shadow-mist,NA,NA,0,変化(status),Lowers the target's evasion by two stages.
+shadow-panic,NA,NA,0,変化(status),Confuses the target.
+shadow-shed,NA,NA,0,変化(status),"Removes [Light Screen]{move:light-screen}, [Reflect]{move:reflect}, and [Safeguard]{move:safeguard}."
+shadow-sky,NA,NA,0,変化(status),Changes the weather to Shadow Sky for five turns.
