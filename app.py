@@ -1,43 +1,37 @@
 import streamlit as st
 import pandas as pd
 import math
-from streamlit_supabase_connection import SupabaseConnection
 
 st.set_page_config(layout="wide") # 画面を横いっぱいに広く使う設定
 
 st.title("⚔️ ポケモン ダメージ計算システム")
-st.caption("Supabaseデータベースと完全連動！確定数や残りHP%も自動計算します。")
+st.caption("ローカルのCSVファイルと連動中！確定数や残りHP%も自動計算します。")
 st.divider()
 
-# --- Supabaseからデータを読み込む関数 ---
+# --- データの読み込み関数（元のCSV読み込み方式） ---
 @st.cache_data
-def load_all_data_from_supabase():
-    # StreamlitのSecretsに設定した情報を使ってSupabaseに接続
-    conn = st.connection("supabase", type=SupabaseConnection)
-    
-    # Supabase上の各テーブルからデータを全件取得してPandasのDataFrameに変換
-    # ※もしSupabase側のテーブル名を変えた場合は、ここの table="〜" を書き換えてください
-    pokemon_df = pd.DataFrame(conn.query("*", table="pokemon_name_stats").execute().data)
-    moves_df = pd.DataFrame(conn.query("*", table="pokemon_move_name").execute().data)
-    pokemon_moves_df = pd.DataFrame(conn.query("*", table="pokemon_remember_move_name").execute().data)
-    type_chart_df = pd.DataFrame(conn.query("*", table="type_chart").execute().data)
-    
+def load_all_data():
+    # 以前正常に動いていたファイル名と文字コードで読み込みます
+    pokemon_df = pd.read_csv("pokemon_name_stats.csv", encoding="shift_jis")
+    moves_df = pd.read_csv("pokemon_move_name.csv", encoding="shift_jis")
+    pokemon_moves_df = pd.read_csv("pokemon_remember_move_name.csv", encoding="shift_jis")
+    type_chart_df = pd.read_csv("type_chart.csv", encoding="shift_jis")
     return pokemon_df, moves_df, pokemon_moves_df, type_chart_df
 
 # --- データの読み込み実行 ---
 try:
-    pokemon_df, moves_df, pokemon_moves_df, type_chart_df = load_all_data_from_supabase()
+    pokemon_df, moves_df, pokemon_moves_df, type_chart_df = load_all_data()
 except Exception as e:
-    st.error(f"❌ Supabaseからのデータ読み込みでエラーが発生しました。Secretsの設定やテーブル名を確認してください: {e}")
+    st.error(f"❌ データの読み込みでエラーが発生しました。ファイル名や文字コードを確認してください: {e}")
     st.stop()
 
 # --- 💡 タイプ名 英語➔日本語 変換用辞書 ---
 inverse_type_translation = {
     "normal": "ノーマル", "fire": "ほのお", "water": "みず", "electric": "でんき",
     "grass": "くさ", "ice": "こおり", "fighting": "かくとう", "poison": "どく",
-    "ground": "じめん", "flying": "ひこう", "psychic": "エスパー", "むし": "bug", # 元データに合わせ柔軟に対応
-    "bug": "むし", "rock": "いわ", "ghost": "ゴースト", "dragon": "ドラゴン",
-    "dark": "あく", "steel": "はがね", "fairy": "フェアリー"
+    "ground": "じめん", "flying": "ひこう", "psychic": "エスパー", "bug": "むし",
+    "rock": "いわ", "ghost": "ゴースト", "dragon": "ドラゴン", "dark": "あく",
+    "steel": "はがね", "fairy": "フェアリー"
 }
 
 # --- 画面を左右2つに分ける ---
@@ -165,10 +159,8 @@ if hp_real > 0 and max_damage > 0:
     min_pct = (min_damage / hp_real) * 100
     max_pct = (max_damage / hp_real) * 100
     
-    # 確定数の計算（HPを最大ダメージ、最小ダメージで割って切り上げる）
-    # 最高乱数を引き続けても倒すのに必要な手数（＝最小確定数）
+    # 確定数の計算
     min_hits_to_kill = math.ceil(hp_real / max_damage)
-    # 最低乱数を引き続けても倒すのに必要な手数（＝最大確定数）
     max_hits_to_kill = math.ceil(hp_real / min_damage)
     
     # 画面表示用の文言作成
@@ -187,7 +179,7 @@ if hp_real > 0 and max_damage > 0:
     rem_pct_min = (rem_hp_min / hp_real) * 100
     rem_pct_max = (rem_hp_max / hp_real) * 100
 
-    # カード形式（columns）で綺麗に見せる
+    # カード形式（columns）で見せる
     kpi1, kpi2, kpi3 = st.columns(3)
     with kpi1:
         st.markdown(f"**【ダメージの割合】**\n### {min_pct:.1f}% ～ {max_pct:.1f}%")
